@@ -1,37 +1,46 @@
-.header {
+#hero {
     background-image: url(../UX_UI_Homework_17/images/—Pngtree—chalk\ brush\ texture\ decorative\ vector_3786413.png);
+    height: 463px;
+    width: 938px;
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 body {
     background-color: rgb(255, 221, 210, 1);
+    background-image: url(../UX_UI_Homework_17/images/favpng_graphic-design-logo.png);
+    
+    width: 687px;
+    height: 616px;
+    border-top-left-radius: -227px;
+    top: 92px;
+    transform: rotate (-27deg);
+    transform: rotate();
     
 
 }
 #navBar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0px 5%;
 }
+
+#navBar p {
+    font-size: 20px;
+    flex-direction: column;
+    display: flex;
+}  
+
 #navigation {
     display: flex;
-    justify-content: space-evenly;
-    align-items: absolute;
-    width: 25%;
-}
-#navigation p {
-    width: 110px;
-    height: 28px;
-    top: 49px;
-    cursor: pointer;
-    text-decoration: none;
-    position: absolute;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+
 }
 
-#heroGrid {
-    background-position: center;
-    text-align: center;
-    font-size: 60px;
-    line-height: 82px;
-    color: #1d1a19;
-    border: 1px solid #fcbda9;
-}
+
+
+
+

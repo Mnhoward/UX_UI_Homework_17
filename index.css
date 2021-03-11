@@ -1,0 +1,37 @@
+.header {
+    background-image: url(../UX_UI_Homework_17/images/—Pngtree—chalk\ brush\ texture\ decorative\ vector_3786413.png);
+}
+
+body {
+    background-color: rgb(255, 221, 210, 1);
+    
+
+}
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+}
+#navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: absolute;
+    width: 25%;
+}
+#navigation p {
+    width: 110px;
+    height: 28px;
+    top: 49px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+}
+
+#heroGrid {
+    background-position: center;
+    text-align: center;
+    font-size: 60px;
+    line-height: 82px;
+    color: #1d1a19;
+    border: 1px solid #fcbda9;
+}

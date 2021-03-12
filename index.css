@@ -3,23 +3,30 @@
     height: 463px;
     width: 938px;
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center;
 }
 
 body {
     background-color: rgb(255, 221, 210, 1);
     background-image: url(../UX_UI_Homework_17/images/favpng_graphic-design-logo.png);
-    
+    background-repeat: no-repeat;
     width: 687px;
     height: 616px;
     border-top-left-radius: -227px;
     top: 92px;
+    left: -227px;
     transform: rotate (-27deg);
-    transform: rotate();
-    
-
 }
-#navBar {
+
+ul {
+    justify-content: flex-end;
+    text-align: right;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    }
+
+#navigation {
     display: flex;
     flex-direction: column;
     margin: 0px 5%;

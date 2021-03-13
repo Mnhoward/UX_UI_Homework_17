@@ -1,50 +1,60 @@
-#hero {
-    background-image: url(../UX_UI_Homework_17/images/—Pngtree—chalk\ brush\ texture\ decorative\ vector_3786413.png);
-    height: 463px;
-    width: 938px;
-    background-repeat: no-repeat;
-    background-position: center;
+#heroGrid {
+    font-size: 60px;
+    color: #1d1a19;
+    text-align: center;
+    justify-content: center;
+
+    }
+
+h1 {
+    text-align: center;
+    border-style: 1px solid #FCBDA9;
+    margin: 0px;
+    justify-content: center;
 }
 
+.heroGridArea {
+    justify-content: center;
+    float: center;
+    margin: 75px;
+    justify-items: center;
+
+}
+
+
 body {
-    background-color: rgb(255, 221, 210, 1);
-    background-image: url(../UX_UI_Homework_17/images/favpng_graphic-design-logo.png);
+    background-image: url(../UX_UI_Homework_17/images/portfolio\ splash\ screen.png);
     background-repeat: no-repeat;
-    width: 687px;
-    height: 616px;
-    border-top-left-radius: -227px;
-    top: 92px;
-    left: -227px;
-    transform: rotate (-27deg);
+    background-size: 100%;
 }
 
 ul {
     justify-content: flex-end;
-    text-align: right;
-    width: 25%;
-    margin: 0;
-    padding: 0;
+    list-style: none;
+    
+    
     }
 
-#navigation {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 5%;
-}
 
 #navBar p {
     font-size: 20px;
-    flex-direction: column;
-    display: flex;
+    margin: 25px;
+    cursor: pointer;
+    justify-content: flex-end;
+    float: right;
+    
 }  
 
-#navigation {
+.navigation {
     display: flex;
-    width: 50%;
-    align-items: flex-end;
-    justify-content: flex-end;
+    float: right;
+    
+}
 
-
+#footer {
+    font-size: 30px;
+    justify-content:end;
+    
 }
 
 

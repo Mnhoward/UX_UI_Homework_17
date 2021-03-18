@@ -25,7 +25,7 @@ h1 {
 body {
     background-image: url(../UX_UI_Homework_17/images/portfolio\ splash\ screen.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: ;
 }
 
 ul {
@@ -42,11 +42,12 @@ ul {
     cursor: pointer;
     justify-content: flex-end;
     float: right;
+    font-display: black;
     
 }  
 
 .navigation {
-    display: flex;
+    display: inline-flex;
     float: right;
     
 }
@@ -54,7 +55,12 @@ ul {
 #footer {
     font-size: 30px;
     justify-content:end;
+    margin-top: 25px;
     
+}
+
+.aboutMe {
+    float: left bottom;
 }
 
 

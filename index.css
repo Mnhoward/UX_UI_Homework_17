@@ -3,12 +3,14 @@
     color: #1d1a19;
     text-align: center;
     justify-content: center;
+    font-family: playfair display;
+    border: 1px solid #FCBDA9;
 
     }
 
 h1 {
     text-align: center;
-    border-style: 1px solid #FCBDA9;
+    border-style: 20px solid #FCBDA9;
     margin: 0px;
     justify-content: center;
 }
@@ -16,52 +18,49 @@ h1 {
 .heroGridArea {
     justify-content: center;
     float: center;
-    margin: 75px;
+    margin: 200px;
     justify-items: center;
 
 }
 
 
 body {
-    background-image: url(../UX_UI_Homework_17/images/portfolio\ splash\ screen.png);
+    background-image: url(../UX_UI_Homework_17/images/portfolio\ img\ 2.png);
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: 100%;
+}
+
+p { 
+    font-display: none;
+    flex-direction: row;
 }
 
 ul {
-    justify-content: flex-end;
     list-style: none;
-    
+    font-family: playfair display;
     
     }
 
 
-#navBar p {
-    font-size: 20px;
-    margin: 25px;
-    cursor: pointer;
-    justify-content: flex-end;
-    float: right;
-    font-display: black;
-    
-}  
-
-.navigation {
-    display: inline-flex;
-    float: right;
+.nav {
+    float: center;
+    font-display: none;
+position: fixed;
+bottom: 0;
+max-width: 25%;
+    justify-content: center;
     
 }
 
-#footer {
+#nav {
     font-size: 30px;
-    justify-content:end;
-    margin-top: 25px;
+    flex-direction: row;
+    justify-content: center;
+   
     
 }
 
-.aboutMe {
-    float: left bottom;
-}
+
 
 
 
